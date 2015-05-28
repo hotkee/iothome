@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:gravity="left|center"
+        android:text="添加设备"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/myShareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addButton"
+        android:background="#FFFFFF"
+        android:gravity="left|center"
+        android:text="我的分享"
+        android:textSize="15dp" />
+    
+    <Button
+        android:id="@+id/loginout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/myShareButton"
+        android:background="#FF0000"
+        android:text="退出登录"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
